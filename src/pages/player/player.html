@@ -1,0 +1,23 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Player</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <button ion-button icon-only (click)="backward()">
+    <ion-icon name="skip-backward"></ion-icon>
+  </button>
+  <button ion-button icon-only (click)="pause()">
+    <ion-icon name="pause"></ion-icon>
+  </button>
+  <button ion-button icon-only (click)="play()">
+    <ion-icon name="play"></ion-icon>
+  </button>
+  <button ion-button icon-only (click)="forward()">
+    <ion-icon name="skip-forward"></ion-icon>
+  </button>
+</ion-content>
