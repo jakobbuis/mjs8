@@ -26,4 +26,10 @@ export class PlayerPage {
     this.remote.pause();
   }
 
+  public clearPlaylist(): void {
+    if (confirm('Weet je zeker dat je de afspeellijst wilt legen?')) {
+      this.remote.clearPlaylist();
+    }
+  }
+
 }
